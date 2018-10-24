@@ -1,0 +1,15 @@
+div{
+    width: 400px;
+    text-align: center;
+    margin:0 auto;
+}
+.box{
+    width: 300px;
+    text-align: center;
+    margin:0 auto;
+    color:green
+}
+p {
+    font-size: 30px;
+    color:blue
+}
