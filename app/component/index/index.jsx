@@ -3,6 +3,8 @@
 import React from 'react';
 import '../../public/css/stylea.css'
 
+
+
 class Index extends React.Component {
     constructor(props) {
         super(props);
@@ -26,14 +28,12 @@ class Index extends React.Component {
     render() {
         return (
             <div>
-                <h1 className="box"> 这是首页</h1>
+                <h1 className="box"> 首页</h1>
                  <p> Seconds: {this.state.seconds}</p>
                 <ol start={10} type="i">
                     <li>1</li>
                     <li>2</li>
                     <li>3</li>
-                    <li>4</li>
-                    <li>5</li>
                 </ol>
             </div>
         );
