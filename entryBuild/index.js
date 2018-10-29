@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import  Index from  '../app/component/shop/index.jsx'
+import  Index from  '../app/component/index/index.jsx'
 
 ReactDOM.render(
     <Index/>,
