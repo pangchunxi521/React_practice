@@ -23,6 +23,7 @@ class Index extends React.Component {
 
     componentWillUnmount() {
         clearInterval(this.interval);
+        console.log('完成')
     }
 
     render() {
